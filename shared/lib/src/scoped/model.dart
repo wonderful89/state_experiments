@@ -15,4 +15,6 @@ class CartModel extends Model {
     _cart.add(product);
     notifyListeners();
   }
+
+  CartModel of(context) => ScopedModel.of<CartModel>(context);
 }

@@ -16,6 +16,8 @@ void main() {
   ));
 }
 
+// 公有的部分是个观察器，如果需要动态更新，则自己添加观察者；不需要则直接取值
+// 成本是定义实现CartObservable
 class CartObservable extends ValueNotifier<Cart> {
   CartObservable(Cart value) : super(value);
 

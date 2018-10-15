@@ -12,6 +12,8 @@ void main() {
   runApp(MyApp());
 }
 
+// 将cart对象分别传给MyHomePage 和 CartPage
+// 没有其余成本
 class MyApp extends StatelessWidget {
   final cart = Cart();
 

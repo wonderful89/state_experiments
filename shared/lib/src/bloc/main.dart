@@ -11,6 +11,8 @@ void main() {
   runApp(MyApp());
 }
 
+// Bloc 方式
+// 灵活，但是成本特别高
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

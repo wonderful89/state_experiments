@@ -10,6 +10,8 @@ void main() => runApp(MyApp());
 
 final Cart _cart = Cart();
 
+// 全局变量的方式
+// 使用方便但不能释放
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

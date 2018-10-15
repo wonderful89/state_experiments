@@ -10,6 +10,7 @@ void main() => runApp(MyApp());
 
 final Cart cart = Cart();
 
+// 初始化工程
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -40,7 +41,7 @@ class MyHomePage extends StatelessWidget {
           )
         ],
       ),
-      body:  ProductGrid(),
+      body: ProductGrid(),
     );
   }
 }
@@ -49,8 +50,7 @@ class MyHomePage extends StatelessWidget {
 class CartContents extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
-      padding: const EdgeInsets.all(24.0),
-      child: Text("Cart: ${cart.items}"));
+      padding: const EdgeInsets.all(24.0), child: Text("Cart: ${cart.items}"));
 }
 
 /// Displays a tappable grid of products

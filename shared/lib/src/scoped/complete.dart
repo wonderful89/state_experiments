@@ -17,6 +17,10 @@ import 'package:reactive_exploration/src/scoped/model.dart';
 
 void main() => runApp(MyApp());
 
+// ScopedModel模式
+// 成本是定义Model文件，并且在main中添加ScopedModel，在使用的地方添加ScopedModelDescendant。
+// https://www.jianshu.com/p/ed75beccb396
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

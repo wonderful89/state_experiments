@@ -14,6 +14,8 @@ import 'package:redux/redux.dart';
 
 void main() => runApp(MyApp());
 
+// Redux 方式
+// 最繁琐的一种，适合复杂项目。需要创建store、state、middleware(可不要)、action
 class CartPage extends StatelessWidget {
   static const routeName = '/cart';
 
